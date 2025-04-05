@@ -1,0 +1,24 @@
+#cont{
+    width: 70vh;
+    height: 50vh;
+    align-self: center;
+    background-color: bisque;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+span{
+    font-size: 50px;
+    cursor: pointer;
+}
+span:hover , span:hover~span{
+  color: gold;
+}
