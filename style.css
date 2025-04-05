@@ -16,9 +16,16 @@ body{
 
 }
 span{
-    font-size: 50px;
+    font-size: 80px;
     cursor: pointer;
 }
 span:hover , span:hover~span{
   color: gold;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    font-family: 'Roboto' , Arial;
 }
