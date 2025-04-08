@@ -2,7 +2,7 @@
 
 A lightweight, customizable emoji-based rating system for web applications.
 
-![Demo](emoji-rating-mu.vercel.app) 
+![Demo](https://emoji-rating-mu.vercel.app/) 
 
 
 ## ✨ Features
