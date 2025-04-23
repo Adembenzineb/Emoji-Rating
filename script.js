@@ -1,6 +1,7 @@
+//initialising the rating
 let rating = 0
 
-
+//changing the ratings image
 function updateEmoji(){
     const emojiImg = document.querySelector('#cont div img')
     if (rating > 0){
@@ -8,6 +9,7 @@ function updateEmoji(){
     }
 }
 
+//these function used to find the rating
 function bad(){
     rating = 1
     updateEmoji();
@@ -29,7 +31,7 @@ function very_good(){
     updateEmoji();
 }
 
-
+//the imgs variable
 const imagePaths = {
     emojis: {
       1: '/emojies/1.png',
